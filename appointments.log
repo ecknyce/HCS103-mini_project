@@ -5,18 +5,6 @@ SUCCESS register patient #103
 SUCCESS register staff #201
 SUCCESS register staff #202
 SUCCESS register staff #203
-BOOKED #1 Tariro Moyo with Dr. Ndlovu at hour 20 [PENDING]
-SUCCESS book patient #101 with staff #201 at 20
-SUCCESS confirm #1
-FAILED book patient #102 with staff #201 at 20: Patient or staff member already has an appointment at hour 20.
-SUCCESS waiting-list join patient #102 staff #201
-SUCCESS waiting-list join patient #103 staff #201
-BOOKED #2 Tariro Moyo with Dr. Ndlovu at hour 30 [PENDING]
-SUCCESS book patient #101 with staff #201 at 30
-CANCELLED #2 reason=patient unavailable
-WAITING-LIST OFFERED #3 Brian Dube with Dr. Ndlovu at hour 30 [PENDING]
-SUCCESS cancel #2
-FAILED cancel #1: Appointment has already started.
 LOG CLOSED
 LOG OPENED
 SUCCESS register patient #101
@@ -25,57 +13,164 @@ SUCCESS register patient #103
 SUCCESS register staff #201
 SUCCESS register staff #202
 SUCCESS register staff #203
-BOOKED #1 Tariro Moyo with Dr. Ndlovu at hour 20 [PENDING]
-SUCCESS book patient #101 with staff #201 at 20
-SUCCESS confirm #1
-FAILED book patient #102 with staff #201 at 20: Patient or staff member already has an appointment at hour 20.
-SUCCESS waiting-list join patient #102 staff #201
-SUCCESS waiting-list join patient #103 staff #201
-BOOKED #2 Tariro Moyo with Dr. Ndlovu at hour 30 [PENDING]
-SUCCESS book patient #101 with staff #201 at 30
-CANCELLED #2 reason=patient unavailable
-WAITING-LIST OFFERED #3 Brian Dube with Dr. Ndlovu at hour 30 [PENDING]
-SUCCESS cancel #2
-FAILED cancel #1: Too late: confirmed appointments require 2 hours' notice.
-LOG CLOSED
-LOG OPENED
-SUCCESS register patient #101
-SUCCESS register patient #102
-SUCCESS register patient #103
-SUCCESS register staff #201
-SUCCESS register staff #202
-SUCCESS register staff #203
-BOOKED #1 Tariro Moyo with Dr. Ndlovu at hour 20 [PENDING]
-SUCCESS book patient #101 with staff #201 at 20
-SUCCESS confirm #1
-FAILED book patient #102 with staff #201 at 20: Patient or staff member already has an appointment at hour 20.
-SUCCESS waiting-list join patient #102 staff #201
-SUCCESS waiting-list join patient #103 staff #201
-BOOKED #2 Tariro Moyo with Dr. Ndlovu at hour 30 [PENDING]
-SUCCESS book patient #101 with staff #201 at 30
-CANCELLED #2 reason=patient unavailable
-WAITING-LIST OFFERED #3 Brian Dube with Dr. Ndlovu at hour 30 [PENDING]
-SUCCESS cancel #2
-FAILED cancel #1: Too late: confirmed appointments require 2 hours' notice.
-LOG CLOSED
-LOG OPENED
-SUCCESS register patient #101
-SUCCESS register patient #102
-SUCCESS register patient #103
-SUCCESS register staff #201
-SUCCESS register staff #202
-SUCCESS register staff #203
-BOOKED #1 Tariro Moyo with Nurse Moyo at hour 20 [PENDING]
+BOOKED #1 Philip Chamisa with Nurse Moyo at hour 20 [PENDING]
 SUCCESS book patient #101 with staff #202 at 20
 SUCCESS confirm #1
-BOOKED #2 Brian Dube with Dr. Ndlovu at hour 20 [PENDING]
-SUCCESS book patient #102 with staff #201 at 20
-SUCCESS waiting-list join patient #102 staff #201
-SUCCESS waiting-list join patient #103 staff #201
-BOOKED #3 Tariro Moyo with Dr. Ndlovu at hour 30 [PENDING]
-SUCCESS book patient #101 with staff #201 at 30
-CANCELLED #3 reason=patient unavailable
-WAITING-LIST OFFERED #4 Brian Dube with Dr. Ndlovu at hour 30 [PENDING]
-SUCCESS cancel #3
-FAILED cancel #1: Too late: confirmed appointments require 2 hours' notice.
+LOG CLOSED
+LOG OPENED
+SUCCESS register patient #101
+SUCCESS register patient #102
+SUCCESS register patient #103
+SUCCESS register staff #201
+SUCCESS register staff #202
+SUCCESS register staff #203
+BOOKED #1 Ecknyce Phiri with Nurse Moyo at hour 20 [PENDING]
+SUCCESS book patient #102 with staff #202 at 20
+SUCCESS confirm #1
+LOG CLOSED
+LOG OPENED
+SUCCESS register patient #101
+SUCCESS register patient #102
+SUCCESS register patient #103
+SUCCESS register staff #201
+SUCCESS register staff #202
+SUCCESS register staff #203
+LOG CLOSED
+LOG OPENED
+SUCCESS register patient #101
+SUCCESS register patient #102
+SUCCESS register patient #103
+SUCCESS register staff #201
+SUCCESS register staff #202
+SUCCESS register staff #203
+LOG CLOSED
+LOG OPENED
+SUCCESS register patient #101
+SUCCESS register patient #102
+SUCCESS register patient #103
+SUCCESS register staff #201
+SUCCESS register staff #202
+SUCCESS register staff #203
+LOG CLOSED
+LOG OPENED
+SUCCESS register patient #101
+SUCCESS register patient #102
+SUCCESS register patient #103
+SUCCESS register staff #201
+SUCCESS register staff #202
+SUCCESS register staff #203
+BOOKED #1 Ecknyce Phiri with Nurse Moyo at hour 20 [PENDING]
+SUCCESS book patient #102 with staff #202 at 20
+SUCCESS confirm #1
+FAILED book patient #101 with staff #202 at 20: Patient or staff member already has an appointment at hour 20.
+LOG CLOSED
+LOG OPENED
+SUCCESS register patient #101
+SUCCESS register patient #102
+SUCCESS register patient #103
+SUCCESS register staff #201
+SUCCESS register staff #202
+SUCCESS register staff #203
+BOOKED #1 Ecknyce Phiri with Nurse Moyo at hour 20 [PENDING]
+SUCCESS book patient #102 with staff #202 at 20
+SUCCESS confirm #1
+BOOKED #2 Philip Chamisa with Dr. Ndlovu at hour 20 [PENDING]
+SUCCESS book patient #101 with staff #201 at 20
+SUCCESS confirm #2
+LOG CLOSED
+LOG OPENED
+SUCCESS register patient #101
+SUCCESS register patient #102
+SUCCESS register patient #103
+SUCCESS register staff #201
+SUCCESS register staff #202
+SUCCESS register staff #203
+BOOKED #1 Ecknyce Phiri with Nurse Moyo at hour 20 [PENDING]
+SUCCESS book patient #102 with staff #202 at 20
+SUCCESS confirm #1
+BOOKED #1 Philip Chamisa with Dr. Ndlovu at hour 20 [PENDING]
+SUCCESS book patient #101 with staff #201 at 20
+SUCCESS confirm #1
+LOG CLOSED
+LOG OPENED
+SUCCESS register patient #101
+SUCCESS register patient #102
+SUCCESS register patient #103
+SUCCESS register staff #201
+SUCCESS register staff #202
+SUCCESS register staff #203
+BOOKED #1 Ecknyce Phiri with Nurse Moyo at hour 20 [PENDING]
+SUCCESS book patient #102 with staff #202 at 20
+SUCCESS confirm #1
+BOOKED #1 Philip Chamisa with Dr. Ndlovu at hour 20 [PENDING]
+SUCCESS book patient #101 with staff #201 at 20
+SUCCESS confirm #1
+LOG CLOSED
+LOG OPENED
+SUCCESS register patient #101
+SUCCESS register patient #102
+SUCCESS register patient #103
+SUCCESS register staff #201
+SUCCESS register staff #202
+SUCCESS register staff #203
+BOOKED #1 Ecknyce Phiri with Nurse Moyo at hour 20 [PENDING]
+SUCCESS book patient #102 with staff #202 at 20
+SUCCESS confirm #1
+FAILED book patient #101 with staff #201 at 20: Appointments should have unique ids
+LOG CLOSED
+LOG OPENED
+SUCCESS register patient #101
+SUCCESS register patient #102
+SUCCESS register patient #103
+SUCCESS register staff #201
+SUCCESS register staff #202
+SUCCESS register staff #203
+BOOKED #1 Ecknyce Phiri with Nurse Moyo at hour 20 [PENDING]
+SUCCESS book patient #102 with staff #202 at 20
+SUCCESS confirm #1
+BOOKED #2 Philip Chamisa with Dr. Ndlovu at hour 20 [PENDING]
+SUCCESS book patient #101 with staff #201 at 20
+SUCCESS confirm #2
+LOG CLOSED
+LOG OPENED
+SUCCESS register patient #101
+SUCCESS register patient #102
+SUCCESS register patient #103
+SUCCESS register staff #201
+SUCCESS register staff #202
+SUCCESS register staff #203
+BOOKED #1 Ecknyce Phiri with Nurse Moyo at hour 20 [PENDING]
+SUCCESS book patient #102 with staff #202 at 20
+SUCCESS confirm #1
+FAILED book patient #101 with staff #201 at 20: Appointments should have unique ids
+LOG CLOSED
+LOG OPENED
+SUCCESS register patient #101
+SUCCESS register patient #102
+SUCCESS register patient #103
+SUCCESS register staff #201
+SUCCESS register staff #202
+SUCCESS register staff #203
+BOOKED #1 Ecknyce Phiri with Nurse Moyo at hour 20 [PENDING]
+SUCCESS book patient #102 with staff #202 at 20
+SUCCESS confirm #1
+FAILED book patient #101 with staff #201 at 20: Appointments should have unique ids
+LOG CLOSED
+LOG OPENED
+SUCCESS register patient #101
+SUCCESS register patient #102
+SUCCESS register patient #103
+SUCCESS register staff #201
+SUCCESS register staff #202
+SUCCESS register staff #203
+BOOKED #1 Ecknyce Phiri with Nurse Moyo at hour 20 [PENDING]
+SUCCESS book patient #102 with staff #202 at 20
+SUCCESS confirm #1
+BOOKED #2 Philip Chamisa with Dr. Ndlovu at hour 20 [PENDING]
+SUCCESS book patient #101 with staff #201 at 20
+SUCCESS confirm #2
+BOOKED #3 Ecknyce Phiri with Nurse Moyo at hour 40 [PENDING]
+SUCCESS book patient #102 with staff #202 at 40
+EMERGENCY BOOKED #4 Philip Chamisa with Nurse Moyo at hour 40 [PENDING]
+SUCCESS emergency book patient #101 at 40
 LOG CLOSED

@@ -30,9 +30,12 @@ public class Main {
                 System.out.println(member.role() + " fee: $" + member.fee());
 
             System.out.println("\n--- BOOKING AND CONFIRMATION ---");
-            Appointment first = clinic.book(patient, nurse, 20);
+            Appointment first = clinic.book(secondPatient, nurse, 20);
             clinic.confirm(first.getId());
             System.out.println("Price after patient discount: $" + first.price());
+            Appointment second = clinic.book(patient, doctor, 20);
+            clinic.confirm(second.getId());
+            System.out.println("Price after patient discount: $" + second.price());
 
             System.out.println("\n--- DELIBERATE FAILURE: CONFLICT ---");
             try { clinic.book(secondPatient, doctor, 20); }
@@ -43,8 +46,10 @@ public class Main {
 
             System.out.println("\n--- MEDICAL LECTURER: SINGLE PERSON CONSTRUCTION ---");
             int before = Person.getConstructorCount();
+            System.out.println(before);
             MedicalLecturer lecturer = new MedicalLecturer("Dr. Chuma", 301, "Human Anatomy");
             int after = Person.getConstructorCount();
+            System.out.println(after);
             System.out.println(lecturer.role() + ", module: " + lecturer.moduleName());
             System.out.println("Doctor fee inherited: $" + lecturer.fee());
             System.out.println("Person constructor calls for MedicalLecturer: " + (after - before));

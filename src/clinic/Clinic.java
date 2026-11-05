@@ -65,6 +65,9 @@ public class Clinic {
             ensureBuffer(member, startHour, null);
             int id = nextAppointmentId++;
             Appointment appointment = new Appointment(id, patient, member, startHour);
+            if (appointments.containsKey(id)) {
+                throw new IllegalStateException("Appointments should have unique ids");
+            }
             appointments.put(id, appointment);
             result[0] = appointment;
             log.write("BOOKED " + appointment);
